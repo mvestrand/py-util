@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mvest.util"
+requires-python = ">=3.8"
+description = "Personal utilities for python scripts"
+# dependencies = []
+license = {file = "LICENSE.txt"}
+
+[project.urls]
+Repository = "https://github.com/mvestrand/py-utils.git"
+
+# dependencies = [
+#     'ExampleRepo @ git+ssh://git@github.com/example_org/ExampleRepo.git',
+# ]
+
+# [project.optional-dependencies]
+# dev = ['ExtraExample @ git+ssh://git@github.com/example_org/ExtraExample.git']
